@@ -20,7 +20,7 @@ app.use(
 );
 
 app.use(
-  "/arxiv",
+  "/pdf",
   createProxyMiddleware({
     target: "https://arxiv.org",
     changeOrigin: true,
